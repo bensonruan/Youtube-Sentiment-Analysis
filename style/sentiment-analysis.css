@@ -1,0 +1,79 @@
+.info-text {
+    font-size: 20px;
+    margin: 20px auto
+}
+.comment-table, 
+.comment-table  td {
+    border: 1px solid #dee2e6;
+    border-top: 0px;
+}
+
+.comment-table  td {
+    padding: 5px;
+}
+.comment-table td:first-child {  
+    text-align: center;
+    width: 20%;
+  }
+
+.comment-table td:nth-child(2) {  
+    text-align: left;
+    width: 80%;
+    /* wrap long text and urls */
+    white-space: pre; /* CSS 2.0 */
+    white-space: pre-wrap; /* CSS 2.1 */
+    white-space: pre-line; /* CSS 3.0 */
+    white-space: -pre-wrap; /* Opera 4-6 */
+    white-space: -o-pre-wrap; /* Opera 7 */
+    white-space: -moz-pre-wrap; /* Mozilla */
+    word-wrap: break-word; /* IE 5+ */
+    max-width: 450px;
+}
+
+@media screen and (max-width: 480px) {
+    .comment-table td:nth-child(2) {  
+        max-width: 300px;
+    }
+}
+
+.spinner-border {
+    width: 100px;
+    height: 100px;
+    margin: 30px auto;
+}
+
+#chartContainer{
+    height: 400px;
+    margin: 15px;
+}
+
+#positive-tab.nav-link{
+    color: #6878AD;
+}
+#positive-tab.nav-link.active{
+    color: #fff;
+    background-color: #6878AD;
+}
+#neutral-tab.nav-link.active{
+    color: #fff;
+    background-color: #00D0A4;
+}
+#neutral-tab.nav-link{
+    color: #00D0A4;
+}
+#negative-tab.nav-link.active{
+    color: #fff;
+    background-color: #F2736A;
+}
+#negative-tab.nav-link{
+    color: #F2736A;
+}
+.nav-link {
+    padding: .5rem .5rem !important;
+}
+.nav-tabs .nav-link{
+    border: 0px !important;
+}
+#video-detail i{
+    margin: 5px 10px 0px 5px;
+}
